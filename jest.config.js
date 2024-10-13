@@ -9,7 +9,6 @@ export default {
     'src/config.js',
     '.model.js',
     '.router.js',
-    'src/controllers/controller.js',
-    'src/middleware/files.js',
+    'src/middleware/files.js'
   ],
 };

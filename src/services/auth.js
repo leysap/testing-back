@@ -2,6 +2,7 @@ import { hash, compare } from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import { secret } from '../config.js';
 import { HttpError } from '../types/http.error.js';
+
 export class AuthServices {
   static createJWT(payload) {
     const token = jwt.sign(payload, secret);

@@ -5,6 +5,7 @@ import createDebug from 'debug';
 import { HttpError } from '../types/http.error.js';
 import { FireBase } from '../services/firebase.js';
 const debug = createDebug('FP:FileMiddleware');
+
 export class FileMiddleware {
   constructor() {
     debug('Instantiate');

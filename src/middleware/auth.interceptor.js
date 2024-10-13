@@ -1,7 +1,9 @@
 import createDebug from 'debug';
 import { HttpError } from '../types/http.error.js';
 import { AuthServices } from '../services/auth.js';
+
 const debug = createDebug('FP:AuthInterceptor');
+
 export class AuthInterceptor {
   constructor(filmRepo) {
     this.filmRepo = filmRepo;

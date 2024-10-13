@@ -7,9 +7,10 @@ export const db = process.env.DB_NAME;
 export const secret = process.env.JWT_SECRET;
 export const firebaseConfig = {
     apiKey: process.env.FIREBASE_API_KEY,
-    authDomain: 'only-films-cbeb4.firebaseapp.com',
-    projectId: 'only-films-cbeb4',
-    storageBucket: 'only-films-cbeb4.appspot.com',
-    messagingSenderId: '1086374942699',
-    appId: '1:1086374942699:web:f2ce083306c586e5fe2bae',
+    authDomain: 'immune-front-testin.firebaseapp.com',
+    projectId: 'immune-front-testin',
+    storageBucket: 'immune-front-testin.appspot.com',
+    messagingSenderId: '250616408760',
+    appId: '1:250616408760:web:1234253a4d935635bc224d',
 };
+console.log("DB_CLUSTER:", process.env.DB_CLUSTER);

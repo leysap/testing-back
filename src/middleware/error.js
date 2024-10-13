@@ -2,6 +2,7 @@ import { HttpError } from '../types/http.error.js';
 import mongoose, { mongo } from 'mongoose';
 import createDebug from 'debug';
 const debug = createDebug('FP:Error Middleware');
+
 export const handleError = (error, _req, res, _next) => {
     debug('Executed');
     if (error instanceof HttpError) {

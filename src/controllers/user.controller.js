@@ -2,7 +2,9 @@ import { AuthServices } from '../services/auth.js';
 import { HttpError } from '../types/http.error.js';
 import createDebug from 'debug';
 import { Controller } from './controller.js';
+
 const debug = createDebug('FP:UserController');
+
 export class UserController extends Controller {
   constructor(repo) {
     super();

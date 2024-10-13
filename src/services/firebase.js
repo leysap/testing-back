@@ -2,6 +2,7 @@ import { readFile } from 'fs/promises';
 import { initializeApp } from 'firebase/app';
 import { firebaseConfig } from '../config.js';
 import { getDownloadURL, getStorage, ref, uploadBytes } from 'firebase/storage';
+
 export class FireBase {
   constructor() {
     this.app = initializeApp(firebaseConfig);

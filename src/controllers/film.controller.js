@@ -1,6 +1,6 @@
- 
-import createDebug from 'debug';
+ import createDebug from 'debug';
 import { Controller } from './controller.js';
+
 const debug = createDebug('FP:FilmController');
 export class FilmController extends Controller {
   constructor(repo, userRepo) {
@@ -100,6 +100,7 @@ export class FilmController extends Controller {
     } catch (error) {
       next(error);
     }
+    
   }
 
   async addComment(req, res, next) {
